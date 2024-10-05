@@ -1,0 +1,32 @@
+name: card_matching_game
+description: A Flutter card-matching game combining animation and state management.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/image1.jpeg
+    - assets/images/image2.jpeg
+    - assets/images/image3.jpeg
+    - assets/images/image4.jpeg
+    - assets/images/image5.jpeg
+    - assets/images/image6.jpeg
+    - assets/images/image7.jpeg
+    - assets/images/image8.jpeg
+    - assets/images/card_back.jpeg
